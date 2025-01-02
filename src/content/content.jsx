@@ -108,7 +108,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Revolucione sua empresa com uma
-          <span className="text-primary"> gestão de excelência</span>
+          <span className="text-primary"> contabilidade inteligente</span>
         </h1>
       ),
       subtitle:
@@ -161,9 +161,9 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Estratégias em departamento pessoal",
+      title: "Estratégias em contabilidade",
       subtitle:
-        "Serviços personalizados para a gestão eficiente da sua equipe.",
+        "Serviços personalizados para a gestão inteligente da sua equipe.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -204,8 +204,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Controle de admissões e demissões",
-        subtitle: "Processos alinhados às normas trabalhistas vigentes.",
+        title: "Gestão fiscal",
+        subtitle:
+          "Escrituração e apuração de impostos das notas de compra e venda.",
         description: (
           <div>
             A_Definir
@@ -226,13 +227,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-contact-round"
+            class="lucide lucide-circle-dollar-sign"
           >
-            <path d="M16 2v2" />
-            <path d="M17.915 22a6 6 0 0 0-12 0" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="12" r="4" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -240,8 +239,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Assessoria em benefícios corporativos",
-        subtitle: "Otimização de benefícios para satisfação da equipe.",
+        title: "Gestão contábil",
+        subtitle:
+          "Escrituração dos fatos contábeis e elaboração das demonstrações.",
         description: (
           <div>
             A_Definir <br />
@@ -261,12 +261,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-notebook-pen"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" />
+            <path d="M2 6h4" />
+            <path d="M2 10h4" />
+            <path d="M2 14h4" />
+            <path d="M2 18h4" />
+            <path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -274,8 +276,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Gestão de ponto eletrônico",
-        subtitle: "Controle automatizado para maior produtividade.",
+        title: "Contabilidade gerencial",
+        subtitle:
+          "Elaboração da estrutura necessária para apuração dos índices, dashboards e realização de análises.",
         description: (
           <div>
             A_Definir
@@ -296,10 +299,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clock-8"
+            class="lucide lucide-file-chart-column"
           >
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 8 14" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M8 18v-1" />
+            <path d="M12 18v-6" />
+            <path d="M16 18v-3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -376,11 +382,11 @@ const content = {
           profissional que sou hoje.
           <br />
           <br />
-          Atualmente, atuo como coordenador de recursos humanos e departamento
-          pessoal. Essa posição me permite unir minha paixão por negócios com a
-          experiência acumulada, ajudando empresas a crescerem de forma
-          estruturada e eficiente. Cada desafio que enfrento reforça meu amor
-          pela profissão e o desejo de continuar fazendo a diferença.
+          Encerrei o ciclo CLT em cargos de coordenação. Essa posição me
+          permitiu unir minha paixão por negócios e a experiência acumulada,
+          conhecendo as dores mais comuns e ajudando empresas a crescerem de
+          forma estruturada e eficiente. Cada desafio que enfrento reforça meu
+          amor pela profissão e o desejo de continuar fazendo a diferença.
           <br />
           <br />
         </p>
@@ -418,7 +424,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Primeiro contato e análise inicial",
           cardDescription:
-            "Entendemos as necessidades do cliente e identificamos os principais desafios em gestão de pessoal.",
+            "Entendemos as necessidades do cliente e identificamos os principais desafios.",
         },
         card2: {
           stepNumber: 2,
@@ -430,7 +436,7 @@ const content = {
           stepNumber: 3,
           cardTitle: "Implementação das soluções",
           cardDescription:
-            "Aplicamos as soluções acordadas, garantindo alinhamento com as normas trabalhistas.",
+            "Aplicamos as soluções acordadas, garantindo alinhamento com as normas.",
         },
         card4: {
           stepNumber: 4,
