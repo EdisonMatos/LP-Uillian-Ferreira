@@ -56,7 +56,7 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Uillian Ferreira Gestão de Departamento Pessoal",
+  name: "Uillian Ferreira Contabilidade",
   email: "contato", // Email desejado pelo cliente
   domain: "uillianferreira.com.br", // Sem "www"
   phone: {
@@ -104,7 +104,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "GESTÃO DE DEPARTAMENTO PESSOAL EM UBERABA - MG",
+      miniTag: "ESPECIALISTA EM CONTABILIDADE EM UBERABA - MG",
       title: (
         <h1 className="mb-[16px]">
           Revolucione sua empresa com uma
@@ -408,7 +408,8 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Precisa de ajuda com gestão de pessoal? Estamos aqui para isso!",
+      title:
+        "Precisa de ajuda com a contabilidade da sua empresa? Estamos aqui para isso!",
       subtitle:
         "Fale com nossa equipe. Estamos prontos para oferecer soluções completas em departamento pessoal.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
