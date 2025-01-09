@@ -163,7 +163,7 @@ const content = {
       miniTag: "ESPECIALIDADES",
       title: "Estratégias em contabilidade",
       subtitle:
-        "Serviços personalizados para a gestão inteligente da sua equipe.",
+        "Serviços personalizados para a gestão inteligente da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
