@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Ripple } from "primereact/ripple";
+import { FileText } from "lucide-react";
+
 import "primeicons/primeicons.css";
 import {
   HelpCircle,
@@ -180,6 +182,25 @@ export default function SidebarSocial({ LightMode }) {
 
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
+                                <FileText />
+                                <span className="ml-[8px]">
+                                  <Link
+                                    to="blog"
+                                    className="align-text-top cursor-pointer"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-70}
+                                    href="#"
+                                  >
+                                    {content.texts.navbar.menuItems[3]}
+                                  </Link>
+                                </span>
+                                <Ripple />
+                              </a>
+                            </li>
+                            <li>
+                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                 <HelpCircle />
                                 <span className="ml-[8px]">
                                   <Link
@@ -191,7 +212,7 @@ export default function SidebarSocial({ LightMode }) {
                                     offset={-70}
                                     href="#"
                                   >
-                                    {content.texts.navbar.menuItems[3]}
+                                    {content.texts.navbar.menuItems[4]}
                                   </Link>
                                 </span>
                                 <Ripple />
