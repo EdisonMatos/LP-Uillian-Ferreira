@@ -99,7 +99,13 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Blog", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Serviços",
+        "Sobre Nós",
+        "Blog",
+        "Perguntas Frequentes",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -449,7 +455,7 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "Informação jurídica ao seu alcance",
+      title: "Informação contábil ao seu alcance",
       subtitle:
         "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
